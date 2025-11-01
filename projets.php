@@ -20,6 +20,8 @@
             <button class="bouton2" onclick="Projet('scrabble')">Scrabble</button>
             <button class="bouton2" onclick="Projet('multiburo')">Multiburo</button>
             <button class="bouton2" onclick="Projet('cooknco')">Cooknco</button>
+            <button class="bouton2" onclick="Projet('triathlon')">Triathlon</button>
+            <button class="bouton2" onclick="Projet('boulanger')">Boulanger</button>
         </div>
 
         <div id="project-content" class="marge">

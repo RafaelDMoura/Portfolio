@@ -2,7 +2,7 @@ const stages = {
     stage1: {
         title: "Access Creed",
         html: `
-            <div class="stage-access-creed">
+            <div class="stage" id="access-creed">
                 <h2>C’est quoi Access Creed ?</h2>
                 <ul>
                     <li>Une entreprise Freelancer</li>
@@ -24,7 +24,7 @@ const stages = {
     stage2: {
         title: "[STAGE #2]",
         html: `
-            <div class="stage-access-creed">
+            <div class="stage" id="stage2">
                 <h2>Stage #2</h2>
                 <ul>
                     <li>Stage prévu pour 5 Janvier 2026 - 13 Février 2026</li>
