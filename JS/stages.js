@@ -4,7 +4,7 @@ const stages = {
         html: `
             <div class="stage" id="access-creed">
                 <div class="container-img">
-                    <img src="CSS/img/accesscreed.png" alt="Access Creed" class="img-centre">
+                    <img src="CSS/IMG/accesscreed.png" alt="Access Creed" class="img-centre">
                 </div>
                 <ul>
                     <li>Une entreprise Freelancer</li>
@@ -27,7 +27,7 @@ const stages = {
         html: `
             <div class="stage" id="celeonet">
                 <div class="container-img">
-                    <img src="CSS/img/celeonet.png" alt="Celeonet" class="img-centre">
+                    <img src="CSS/IMG/celeonet.png" alt="Celeonet" class="img-centre">
                 </div>
                 <ul>
                     <li>Une entreprise expert en hébergement créée en 2003.</li>
