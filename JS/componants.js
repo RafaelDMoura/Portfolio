@@ -61,7 +61,7 @@ function createFooter() {
     footerContainer.innerHTML = `
     <footer>
         <div class="footer-left">
-            <img src="css/img/moi.jpg" alt="Photo de Rafael" />
+            <img src="CSS/img/moi.jpg" alt="Photo de Rafael" />
             <h2>Rafael<br>Faquir De Moura</h2>
         </div>
 
@@ -73,10 +73,10 @@ function createFooter() {
 
             <div class="footer-icons">
                 <a href="https://www.linkedin.com/in/rafael-faquir-de-moura-1a8551301/" target="_blank" aria-label="LinkedIn">
-                    <img src="css/img/1linkedin.png" alt="LinkedIn" />
+                    <img src="CSS/img/1linkedin.png" alt="LinkedIn" />
                 </a>
                 <a href="https://github.com/RafaelDMoura" target="_blank" aria-label="GitHub">
-                    <img src="css/img/2github.png" alt="GitHub" />
+                    <img src="CSS/img/2github.png" alt="GitHub" />
                 </a>
             </div>
         </div>
