@@ -197,7 +197,7 @@ footer {
 
 /* stages différence */
 #access-creed {
-    background-image: url('img/accesscreed_bg2.png');
+    background-image: url('IMG/accesscreed_bg2.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -211,7 +211,7 @@ footer {
 }
 
 #celeonet {
-    background-image: url('img/celeonet_bg.png');
+    background-image: url('IMG/celeonet_bg.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

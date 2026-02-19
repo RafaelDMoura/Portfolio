@@ -12,13 +12,11 @@ const stages = {
                     <li>Access Creed fait aussi des délivraisons d’outils (ordinateurs, composants, écrans, etc.).</li>
                 </ul> <br>
                 <h2>J'ai fait quoi dans Access Creed?</h2>
-                <p>Du 19 Mai 2025 au 27 Juin 2025, j'ai eu deux projets :</p>
+                <p>Du 19 Mai 2025 au 27 Juin 2025, j'ai eu un projet et une mission :</p>
                 <ul>
-                    <li>La construction du site web (malheureusement incomplet)</li>
-                    <li>Un formulaire applicative en C# pour une autre entreprise</li>
+                    <li>Mon Projet : La construction du site web</li>
+                    <li>Ma Mission : Un formulaire applicative en C# pour une autre entreprise</li>
                 </ul>
-                <p>Access Creed est une entreprise de type freelance spécialisée dans la réparation et la livraison de matériel informatique.</p>
-                <p>Durant ce stage, j’ai participé à la maintenance d’ordinateurs et à la préparation d’un futur site web vitrine.</p>
             </div>
         `
     },
@@ -32,9 +30,19 @@ const stages = {
                 <ul>
                     <li>Une entreprise expert en hébergement créée en 2003.</li>
                     <li>L'entreprise constitue d'une équipe d’experts d’internet et des réseaux.</li>
-                    <li>C'est une entreprise qui se répartie sur la région Parisienne et Lyonnaise</li>
-                    <li>Pour en savoir plus <a href="https://www.celeonet.fr/societe" target="_blank">cliquer ici</a></li>
+                    <li>C'est une entreprise qui se répartie sur la région Parisienne et Lyonnaise.</li>
+                    <li>Pour en savoir plus <a href="https://www.celeonet.fr/societe" target="_blank">cliquer ici.</a></li>
                 </ul>
+                <h2>J'ai fait quoi dans Celeonet?</h2>
+                <p>Du 5 Janvier 2026 au 13 Février 2026, J'ai eu un projet et deux mission :</p>
+                <ul>
+                    <li>Mon Projet : La construction d'une application web interrogeant la BDD MySQL d'un serveur téléphonique.</li>
+                    <li>Ma Première Mission : Mise en place d'une API pour obtenir les tables localement.</li>
+                    <li>Ma Deuxième Mission : Mise en place des Test Unitaires en PHP.</li>
+                </ul>
+                <h2>Le Projet</h2>
+                <p>Ce projet est une application web en HTML/CSS, JS et PHP natif.</p>
+                <p>Le bût du projet est pour utiliser </p>
             </div>
         `
     }
