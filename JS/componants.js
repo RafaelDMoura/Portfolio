@@ -61,7 +61,9 @@ function createFooter() {
     footerContainer.innerHTML = `
     <footer>
         <div class="footer-left">
-            <img src="CSS/IMG/moi.jpg" alt="Photo de Rafael" />
+            <a href="CSS/PDF/RafaelCV.pdf" target="_blank" aria-label="Si vous cliquez ici, vous aurez mon pdf!">
+                <img src="CSS/IMG/moi.jpg" alt="Photo de Rafael" />
+            </a>
             <h2>Rafael<br>Faquir De Moura</h2>
         </div>
 

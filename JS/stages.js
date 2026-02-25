@@ -1,5 +1,5 @@
 const stages = {
-    stage1: {
+    accessCreed: {
         title: "Access Creed",
         html: `
             <div class="stage" id="access-creed">
@@ -20,9 +20,10 @@ const stages = {
                 </ul>
 
                 <h2>Le Projet du site web</h2>
-                <p>Ce projet est un site web en HTML/CSS, JS et PHP natif.</p>
+                <p>Ce projet est un site web en HTML/CSS/JS et PHP natif.</p>
                 <p>Le bût du projet est pour faire un site web pour que les clients ont un moyen de contacter l'entreprise.</p>
-                <h3>Voici les captures d'écrans des choses que j'ai fais pour le projet :</h3>
+                <p>Et pour qu'ils ont une compte sécuriser grâce aux tickets.</p>
+                <h3>Voici les pages faites pendant le projet :</h3>
                     <img src="CSS/IMG/access-creed-1.png" alt="AC1" class="img-centre">
                     <img src="CSS/IMG/access-creed-2.png" alt="AC2" class="img-centre">
                     <img src="CSS/IMG/access-creed-3.png" alt="AC3" class="img-centre">
@@ -30,15 +31,15 @@ const stages = {
 
                 <h2>La Mission du Formulaire en C#</h2>
                 <p>Cette mission est pour faire un formulaire sous C#</p>
-                <p>Elle est mise en forme par XAML</p>
-                <p>Le bût c'est qu'on obtient l'information des ordinateurs et lequel utilise d'une entreprise</p>
-                <p>Cette information fini par être enregistrer dans une BDD</p>
-                <h3>Voici une capture d'écran pour montrer le formulaire :</h3>
+                <p>Elle est mise en forme par XAML et après transformer en fichier executable</p>
+                <p>Le bût c'est qu'on obtient de l'information des ordinateurs et lequels les utilisent pour une entreprise</p>
+                <p>Cette information fini par être enregistrer dans une base de donnée</p>
+                <h3>Voici comment le formulaire ce ressemble :</h3>
                 <img src="CSS/IMG/access-creed-c.png" alt="AC Formulaire" class="img-centre">
             </div>
         `
     },
-    stage2: {
+    celeonet: {
         title: "Celeonet",
         html: `
             <div class="stage" id="celeonet">
