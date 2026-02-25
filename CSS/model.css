@@ -4,6 +4,7 @@ body {
     font-family: "Codec Pro ExtraBold", sans-serif;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -34,15 +35,31 @@ ul {
     margin-top: 100px;
 }
 
-#small{
+
+#small {
     width: 300px;
     height: 300px;
     object-fit: contain;
+    transition: transform 0.2s ease;
 }
+
+#small:hover {
+    transform: scale(1.2);
+}
+
+img {
+    transition: transform 0.2s ease;
+}
+
+#stage:hover {
+    transform: scale(1.1);
+}
+
 
 .marge {
     margin-bottom: 100px;
 }
+    
 
 /* nav */
 
@@ -53,7 +70,7 @@ ul {
     justify-content: space-evenly;
     gap: 20px;
     padding: 12px;
-    margin-left: -20px;
+    margin-left: -50px;
     flex-wrap: wrap;
     position: fixed;      
     top: 0;
@@ -104,12 +121,15 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #0e1422;
-    padding: 30px 0;
+    background-color: #0e1422;    
+    padding: 30px;
     font-family: "Codec Pro ExtraBold", sans-serif;
-    flex-wrap: wrap;
     gap: 100px; 
-    text-align: center;
+    text-align: center; 
+    position: relative;
+    left: -50%;
+    width: 200%;
+    box-sizing: border-box;
 }
 
 .footer-left {

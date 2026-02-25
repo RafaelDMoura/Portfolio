@@ -12,7 +12,7 @@ const projets = {
     gourmetise: {
         title: "Gourmetise",
         techs: ["Frameworks : Vue.Js", "SQL/MySQL", "Android Studio", "API : Symfony"],
-        description: "Une application web simulant l'inscription de participer, de voir les résultats après l'évènement. \nUne application mobile simulant pour juger les boulangeries inscrite"
+        description: "Une application web simulant l'inscription de participer, de voir les résultats après l'évènement. <br> Une application mobile simulant pour juger les boulangeries inscrite"
     }
 };
 
