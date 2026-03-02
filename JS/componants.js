@@ -84,3 +84,16 @@ function createFooter() {
         </div>
     </footer>`;
 }
+
+
+function openLightbox(src) {
+    document.getElementById('lightbox-img').src = src;
+    document.getElementById('lightbox').style.display = 'flex';
+}
+
+// Optionnel : Fermer la lightbox avec la touche Échap
+document.addEventListener('keydown', function(e) {
+    if (e.key === "Escape") {
+        document.getElementById('lightbox').style.display = 'none';
+    }
+});
