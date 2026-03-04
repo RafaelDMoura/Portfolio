@@ -26,30 +26,16 @@ const stages = {
                 <h3>Voici les pages faites pendant le projet :</h3>
                 <div class="pre2">
                     <img id="stage" src="CSS/IMG/access-creed-1.png" alt="AC1" class="img-centre img-lightbox" onclick="openLightbox(this.src)">
-                    <div id="lightbox" class="lightbox" onclick="this.style.display='none'">
-                        <span class="close">&times;</span>
-                        <img class="lightbox-content" id="lightbox-img">
-                    </div>
+
                     <img id="stage" src="CSS/IMG/access-creed-2.png" alt="AC2" class="img-centre img-lightbox" onclick="openLightbox(this.src)">
-                    <div id="lightbox" class="lightbox" onclick="this.style.display='none'">
-                        <span class="close">&times;</span>
-                        <img class="lightbox-content" id="lightbox-img">
-                    </div>
+
                 </div> <br>
                 <div class="pre2">
                     <div id="one">
                         <img id="stage" src="CSS/IMG/access-creed-3.png" alt="AC3" class="img-centre img-lightbox" onclick="openLightbox(this.src)">
-                        <div id="lightbox" class="lightbox" onclick="this.style.display='none'">
-                            <span class="close">&times;</span>
-                            <img class="lightbox-content" id="lightbox-img">
-                        </div>
                     </div>
                     <div id="two">
                         <img id="stage" src="CSS/IMG/access-creed-4.png" alt="AC4" class="img-centre img-lightbox" onclick="openLightbox(this.src)">
-                        <div id="lightbox" class="lightbox" onclick="this.style.display='none'">
-                            <span class="close">&times;</span>
-                            <img class="lightbox-content" id="lightbox-img">
-                        </div>
                     </div>
                 </div>
                 <h2>La Mission du Formulaire en C#</h2>
@@ -96,39 +82,15 @@ const stages = {
                 <h3>Voici les tables faitent pour le projet :</h3>
                 <div class="pre2">
                     <img id="stage" src="CSS/IMG/celeonet-1.png" alt="Celeonet1" class="img-centre img-lightbox" onclick="openLightbox(this.src)">
-                    <div id="lightbox" class="lightbox" onclick="this.style.display='none'">
-                        <span class="close">&times;</span>
-                        <img class="lightbox-content" id="lightbox-img">
-                    </div>
                     <img id="stage" src="CSS/IMG/celeonet-2.png" alt="Celeonet2" class="img-centre img-lightbox" onclick="openLightbox(this.src)">
-                    <div id="lightbox" class="lightbox" onclick="this.style.display='none'">
-                        <span class="close">&times;</span>
-                        <img class="lightbox-content" id="lightbox-img">
-                    </div>
                 </div>
                 <div class="pre2">
                     <img id="stage" src="CSS/IMG/celeonet-3.png" alt="Celeonet3" class="img-centre img-lightbox" onclick="openLightbox(this.src)">
-                    <div id="lightbox" class="lightbox" onclick="this.style.display='none'">
-                        <span class="close">&times;</span>
-                        <img class="lightbox-content" id="lightbox-img">
-                    </div>
                     <img id="stage" src="CSS/IMG/celeonet-4.png" alt="Celeonet4" class="img-centre img-lightbox" onclick="openLightbox(this.src)">
-                    <div id="lightbox" class="lightbox" onclick="this.style.display='none'">
-                        <span class="close">&times;</span>
-                        <img class="lightbox-content" id="lightbox-img">
-                    </div>
                 </div>
                 <div class="pre2">
                     <img id="stage" src="CSS/IMG/celeonet-5.png" alt="Celeonet5" class="img-centre img-lightbox" onclick="openLightbox(this.src)">
-                    <div id="lightbox" class="lightbox" onclick="this.style.display='none'">
-                        <span class="close">&times;</span>
-                        <img class="lightbox-content" id="lightbox-img">
-                    </div>
                     <img id="stage" src="CSS/IMG/celeonet-6.png" alt="Celeonet6" class="img-centre img-lightbox" onclick="openLightbox(this.src)">
-                    <div id="lightbox" class="lightbox" onclick="this.style.display='none'">
-                        <span class="close">&times;</span>
-                        <img class="lightbox-content" id="lightbox-img">
-                    </div>
                 </div>
                 <p>Pour une petite info, la synthèse vient d'une autre BDD nommée CallSupport</p>
 
@@ -138,17 +100,9 @@ const stages = {
                 <p>on peut faire des requêtes GET</p>
                 <h3>Voici une des tables sous l'API :</h3>
                 <img id="stage" src="CSS/IMG/celeonet-api-1.png" alt="CeleonetAPI1" class="img-centre img-lightbox" onclick="openLightbox(this.src)">
-                <div id="lightbox" class="lightbox" onclick="this.style.display='none'">
-                    <span class="close">&times;</span>
-                    <img class="lightbox-content" id="lightbox-img">
-                </div>
                 <p>Grâce à l'API, on peut automatisé l'importations d'une BDD envers une table d'une autre BDD</p>
                 <h3>Voici  la synchronisation avec Asterisk envers la table de la synthèse d'appels des clients :</h3>
                 <img id="stage" src="CSS/IMG/celeonet-api-2.png" alt="CeleonetAPI2" class="img-centre img-lightbox" onclick="openLightbox(this.src)">
-                <div id="lightbox" class="lightbox" onclick="this.style.display='none'">
-                    <span class="close">&times;</span>
-                    <img class="lightbox-content" id="lightbox-img">
-                </div>
 
                 <h2>La Mission de Test Unitaires PHP</h2>
                 <p>Cette mission est pour faire un Test Unitaire sous PHP</p>
@@ -156,10 +110,6 @@ const stages = {
                 <p>on peut faire tester les fonctions faitent pour voir si elles marchent vraiment</p>
                 <h3>Voici le test fait directement en terminal :</h3>
                 <img id="stage" src="CSS/IMG/celeonet-phpunit.png" alt="CeleonetPHPUnit" class="img-centre img-lightbox" onclick="openLightbox(this.src)">
-                <div id="lightbox" class="lightbox" onclick="this.style.display='none'">
-                    <span class="close">&times;</span>
-                    <img class="lightbox-content" id="lightbox-img">
-                </div>
             </div>
         `
     }
