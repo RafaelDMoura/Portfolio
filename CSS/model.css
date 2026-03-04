@@ -147,6 +147,7 @@ footer {
     position: relative;
     overflow: hidden;
     left: -50%;
+    height: 50%;
     width: 200%;
     box-sizing: border-box;
 }
