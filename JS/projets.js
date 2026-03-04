@@ -23,25 +23,25 @@ const projets = {
         <div class="pre">
             <div id="one">
                 <p>Le profil</p>
-                <img id="stage" src="CSS/IMG/multiburo1.png" class="img-centre img-lightbox" onclick="openLightbox(this.src)">
+                <img id="stage" src="CSS/IMG/Multiburo1.png" class="img-centre img-lightbox" onclick="openLightbox(this.src)">
             </div>
             <div id="two">
                 <p>La profil quand vous-êtes connecter</p>
-                <img id="stage" src="CSS/IMG/multiburo2.png" class="img-centre img-lightbox" onclick="openLightbox(this.src)">
+                <img id="stage" src="CSS/IMG/Multiburo2.png" class="img-centre img-lightbox" onclick="openLightbox(this.src)">
             </div>
         </div> <br>
         <div class="pre">
             <div id="one">
                 <p>La Connection</p>
-                <img id="stage" src="CSS/IMG/multiburo3.png" class="img-centre img-lightbox" onclick="openLightbox(this.src)">
+                <img id="stage" src="CSS/IMG/Multiburo3.png" class="img-centre img-lightbox" onclick="openLightbox(this.src)">
             </div>
             <div id="two">
                 <p>L'Inscription</p>
-                <img id="stage" src="CSS/IMG/multiburo4.png" class="img-centre img-lightbox" onclick="openLightbox(this.src)">
+                <img id="stage" src="CSS/IMG/Multiburo4.png" class="img-centre img-lightbox" onclick="openLightbox(this.src)">
             </div>
             <div id="three">
                 <p>La réservation</p>
-                <img id="stage" src="CSS/IMG/multiburo5.png" class="img-centre img-lightbox" onclick="openLightbox(this.src)">
+                <img id="stage" src="CSS/IMG/Multiburo5.png" class="img-centre img-lightbox" onclick="openLightbox(this.src)">
             </div>
         </div>`
     },
