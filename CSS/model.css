@@ -22,8 +22,8 @@ body::before {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    filter: hue-rotate(300deg) saturate(0.3);
-    opacity: 0.2; 
+    filter: hue-rotate(300deg) saturate(0.1);
+    opacity: 0.1; 
     z-index: -1; 
 }
 
@@ -53,7 +53,6 @@ ul {
     margin-top: 100px;
 }
 
-
 #small {
     width: 300px;
     height: 300px;
@@ -72,7 +71,6 @@ img {
 #stage:hover {
     transform: scale(1.1);
 }
-
 
 .marge {
     margin-bottom: 100px;
@@ -128,10 +126,36 @@ a.bouton:hover {
 }
 
 a.bouton2, button.bouton2 {
-    background-color: #122557;
+    background: #264592;
+    background: linear-gradient(90deg, #264592 0%, #112c6e 50%, #031646 100%);
+    border-radius: 30px;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
+
+/* Le calque du Hover */
+a.bouton2::before, button.bouton2::before {
+    content: "";
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    background: linear-gradient(90deg, #3150a0 0%, #1d4bbe 50%, #0743dd 100%);
+    border-radius: 30px;
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+
 a.bouton2:hover, button.bouton2:hover {
-    background-color: #314475;
+    transform: scale(1.05);
+    box-shadow: 0 0 3px #ff252525,
+              0 0 5px #ff252525,
+              0 0 10px #ff252525,
+              0 0 20px #ff252525;
+    transition: all 0.2s ease-in-out;
+}
+
+/* On affiche le calque au hover */
+a.bouton2:hover::before, button.bouton2:hover::before {
+    opacity: 1;
 }
 
 /* footer */

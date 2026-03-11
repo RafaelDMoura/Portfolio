@@ -12,6 +12,7 @@ const stages = {
                     <li>Fait des délivraisons d’outils (ordinateurs, composants, écrans, etc.).</li>
                     <li>Fait des applications webs pour les clients.</li>
                 </ul>
+                
                 <h2>J'ai fait quoi dans Access Creed?</h2>
                 <p>Du 19 Mai 2025 au 27 Juin 2025, j'ai eu un projet et une mission :</p>
                 <ul>
@@ -26,10 +27,8 @@ const stages = {
                 <h3>Voici les pages faites pendant le projet :</h3>
                 <div class="pre2">
                     <img id="stage" src="CSS/IMG/access-creed-1.png" alt="AC1" class="img-centre img-lightbox" onclick="openLightbox(this.src)">
-
                     <img id="stage" src="CSS/IMG/access-creed-2.png" alt="AC2" class="img-centre img-lightbox" onclick="openLightbox(this.src)">
-
-                </div> <br>
+                </div>
                 <div class="pre2">
                     <div id="one">
                         <img id="stage" src="CSS/IMG/access-creed-3.png" alt="AC3" class="img-centre img-lightbox" onclick="openLightbox(this.src)">
@@ -59,7 +58,7 @@ const stages = {
                     <li>Une entreprise expert en hébergement créée en 2003.</li>
                     <li>L'entreprise constitue d'une équipe d’experts d’internet et des réseaux.</li>
                     <li>C'est une entreprise qui se répartie sur la région Parisienne et Lyonnaise.</li>
-                    <li>Pour en savoir plus <a href="https://www.celeonet.fr/societe" target="_blank">cliquer ici.</a></li>
+                    <li>Pour en savoir plus<a href="https://www.celeonet.fr/societe" target="_blank">cliquer ici.</a></li>
                 </ul>
 
                 <h2>J'ai fait quoi dans Celeonet?</h2>

@@ -13,10 +13,9 @@ const header = document.getElementById('main-header');
 window.addEventListener('scroll', () => {
     const currentScroll = window.pageYOffset;
     if (currentScroll > lastScroll) {
-        // Scroll vers le bas → cache le header
         header.style.top = '-80px';
-    } else {
-        // Scroll vers le haut → montre le header
+    }
+    else {
         header.style.top = '0';
     }
     lastScroll = currentScroll;
