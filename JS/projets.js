@@ -2,7 +2,7 @@ const projets = {
     scrabble: {
         title: "Scrabble 2 Joueurs",
         techs: ["C#", "XAML", "SQL/MySQL", "API"],
-        description: "Un projet de jeu Scrabble en C# avec interface WPF, permettant à deux joueurs de s’affronter et sauvegarder leurs scores dans une base de données.",
+        description: "Un projet de jeu Scrabble en C# avec interface WPF, permettant à deux joueurs de s’affronter et de sauvegarder leurs scores dans une base de données.",
         img: `
         <div class="pre">
             <div id="one">
@@ -26,17 +26,17 @@ const projets = {
                 <img id="stage" src="CSS/IMG/Multiburo1.png" class="img-centre2 img-lightbox" onclick="openLightbox(this.src)">
             </div>
             <div id="two">
-                <p>La profil quand vous-êtes connecter</p>
+                <p>Le profil quand vous-êtes connecter</p>
                 <img id="stage" src="CSS/IMG/Multiburo2.png" class="img-centre2 img-lightbox" onclick="openLightbox(this.src)">
             </div>
         </div> <br>
         <div class="pre">
             <div id="one">
-                <p>La Connection</p>
+                <p>La connection</p>
                 <img id="stage" src="CSS/IMG/Multiburo3.png" class="img-centre2 img-lightbox" onclick="openLightbox(this.src)">
             </div>
             <div id="two">
-                <p>L'Inscription</p>
+                <p>L'inscription</p>
                 <img id="stage" src="CSS/IMG/Multiburo4.png" class="img-centre2 img-lightbox" onclick="openLightbox(this.src)">
             </div>
             <div id="three">
@@ -48,7 +48,7 @@ const projets = {
     gourmetise: {
         title: "Gourmetise",
         techs: ["Frameworks : Vue.Js", "SQL/MySQL", "Android Studio", "API : Symfony"],
-        description: "Une application web simulant l'inscription de participer, de voir les résultats après l'évènement. <br> Une application mobile simulant pour juger les boulangeries inscrite",
+        description: "Une application web simulant l'inscription, de participer, de voir les résultats après l'événement. <br> Une application mobile simulant pour juger les boulangeries inscrites",
         img: `
         <div class="pre">
             <div id="one">

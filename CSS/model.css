@@ -51,9 +51,20 @@ ul {
     text-align:center;
 }
 
+#smaller {
+    width: 200px;
+    height: 120px;
+    object-fit: contain;
+    transition: transform 0.2s ease;
+}
+
+#smaller:hover {
+    transform: scale(1.2);
+}
+
 #small {
     width: 300px;
-    height: 300px;
+    height: 200px;
     object-fit: contain;
     transition: transform 0.2s ease;
 }
