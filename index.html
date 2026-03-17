@@ -10,56 +10,95 @@
 
     <div class="intro">
         <h1>Bienvenue dans mon Portfolio !</h1>
-        <h2>Ravi de vous enchanter !</h2>
+    </div>
+    <div id="lightbox" class="lightbox" onclick="this.style.display='none'">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+    <div class="marge">
+        
+        <div id="rouge"><p>Introduction</p></div>
+        <div class="pre1">
+            <div id="one">
+                <p>Étudiant – 20 ans.</p>
+                <p>Passionné par le développement fullstack.</p>
+                <p>Aime à jouer aux jeux vidéo (Minecraft, Portal, Resident Evil, etc.).</p>
+                <p>Curieux de comment la majorité des codes fonctionnent</p>
+                <p>Pour l'avenir : continuer mes études en fullstack ou le dev jeux vidéo.</p>
+            </div>
+            <div id="two">
+                <p>Mon CV</p>
+                <a href="CSS/PDF/RafaelCV.pdf" target="_blank"><img id="cv" src="CSS/IMG/cv.jpg" class="img-centre"> </img> </a>
+            </div>
+        </div>
     </div>
 
     <div class="marge">
-        <div id="rouge"><p>Introduction</p></div>
-        <div>
-            <p>Je suis un étudiant agé de 20 ans.</p>
-            <p>Je suis passionné par le développement d'applications web et logiciels.</p>
-            <p>Je suis aussi capable à faire de la Base De Données et l'API.</p>
-            <p>J'adore à jouer aux jeux vidéos comme Minecraft et Resident Evil,</p>
-            <p>ces intérêts me donnent envie de savoir comment ils fonctionnent techniquement.</p>
+        <div id="rouge"><p>Diplômes</p></div>
+        <div class="pre3">
+            <div id="one">
+                <p>BAC Général</p>
+                <img id="small" src="CSS/IMG/" class="img-centre2 img-lightbox" onclick="openLightbox(this.src)"> </img>
+            </div>
+            <div id="three">
+                <p>BAC+2 (Anticipé)</p>
+                <img id="small" src="CSS/IMG/" class="img-centre2 img-lightbox" onclick="openLightbox(this.src)"> </img>
+            </div>
         </div>
     </div>
 
     <div class="marge">
         <div id="rouge"><p>Formation Scolaire</p></div>
-        <div>
-            <p>BTS SIO SLAM (Services Informatiques aux Organisations - Solutions Logicielles et Applications Métiers) (2024 - 2026)</p>
-            <ul>
-                <li>Lycée Ella Fitzgerald</li>
-                <li>Saint-Romain-en-Gal</li>
-                <li>BAC+2</li>
-            </ul>
+        <div class="pre1">
+            <div id="one">
+                <p>BTS SIO SLAM (Services Informatiques aux Organisations – Solutions Logicielles et Applications Métiers) (2024 - 2026)</p>
+                <ul>
+                    <li>Lycée Ella Fitzgerald</li>
+                    <li>Saint-Romain-en-Gal</li>
+                    <li>BAC+2</li>
+                </ul>
+            </div>
         </div>
-        <div>
-            <p>Baccalauréat Général Spécialité NSI (Numérique et sciences informatiques) et AMC (Anglais Monde Contemporain) (2021-2024)</p>
-            <ul>
-                <li>Lycée Polyvalent Aragon-Picasso</li>
-                <li>Givors</li>
-                <li>BAC Général</li>
-            </ul>
+        <div class="pre1">
+            <div id="one">
+                <img id="big" src="CSS/IMG/ella.png" class="img-centre2 img-lightbox" onclick="openLightbox(this.src)"> </img>
+            </div>
+        </div>
+        <div class="pre1">
+            <div id="one">
+                <p>Baccalauréat Général Spécialité NSI (Numérique et sciences informatiques) – AMC (Anglais Monde Contemporain) (2021-2024)</p>
+                <ul>
+                    <li>Lycée Polyvalent Aragon-Picasso</li>
+                    <li>Givors</li>
+                    <li>BAC Général</li>
+                </ul>
+            </div>
+        </div>
+        <div class="pre1">
+            <div id="one">
+                <img id="big" src="CSS/IMG/aragon.jpg" class="img-centre2 img-lightbox" onclick="openLightbox(this.src)"> </img>
+            </div>
         </div>
     </div>
 
-    <div class="marge">
-        <div id="rouge"><p>Stage d'Entreprise</p></div>
-        <div><p>Access Creed (19 Mai 2025 - 27 Juin 2025)</p></div>
-        <div><button class="bouton2" onclick="window.location.href='stages.html#accessCreed'">En savoir plus sur Access Creed</button></div>
-        <div><p>Celeonet (5 Janvier 2026 - 13 Février 2026)</p></div>
-        <div><button class="bouton2" onclick="window.location.href='stages.html#celeonet'">En savoir plus sur Celeonet</button></div>
-    </div>
+    <div class="conteneur-flex">
+        <div class="marge2">
+            <div id="rouge"><p>Stage d'Entreprise</p></div>
+            <div><p>Access Creed (19 Mai 2025 - 27 Juin 2025)</p></div>
+            <div><button class="bouton2" onclick="window.location.href='stages.html#accessCreed'">En savoir plus sur Access Creed</button></div>
+            <div><p>Celeonet (5 Janvier 2026 - 13 Février 2026)</p></div>
+            <div><button class="bouton2" onclick="window.location.href='stages.html#celeonet'">En savoir plus sur Celeonet</button></div>
+        </div>
 
-    <div class="marge">
-        <div id="rouge"><p>Projets Scolaires</p></div>
-        <div><p>Scrabble 2 Joueurs (BTS SIO 2024-2026)</p></div>
-        <div><button class="bouton2" onclick="window.location.href='projets.html#scrabble'">En savoir plus sur Scrabble</button></div>
-        <div><p>Multiburo (BTS SIO 2024-2026)</p></div>
-        <div><button class="bouton2" onclick="window.location.href='projets.html#multiburo'">En savoir plus sur Multiburo</button></div>
-        <div><p>Gourmetise (BTS SIO 2025-2026)</p></div>
-        <div><button class="bouton2" onclick="window.location.href='projets.html#gourmetise'">En savoir plus sur Gourmetise</button></div>
+        <div class="marge2">
+            <div id="rouge"><p>Projets Scolaires</p></div>
+            <div><p>Scrabble 2 Joueurs (BTS SIO 2024–2025)</p></div>
+            <div><button class="bouton2" onclick="window.location.href='projets.html#scrabble'">En savoir plus sur Scrabble</button></div>
+            <div><p>Multiburo (BTS SIO 2024–2025)</p></div>
+            <div><button class="bouton2" onclick="window.location.href='projets.html#multiburo'">En savoir plus sur Multiburo</button></div>
+            <div><p>Gourmetise (BTS SIO 2025–2026)</p></div>
+            <div><button class="bouton2" onclick="window.location.href='projets.html#gourmetise'">En savoir plus sur Gourmetise</button></div>
+        </div>
     </div>
 
     <div id="footery"></div>

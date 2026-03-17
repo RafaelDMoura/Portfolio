@@ -7,11 +7,11 @@ const projets = {
         <div class="pre">
             <div id="one">
                 <p>La sauvegarde des parties</p>
-                <img id="stage" src="CSS/IMG/scrabble1.png" class="img-centre img-lightbox" onclick="openLightbox(this.src)">
+                <img id="stage" src="CSS/IMG/scrabble1.png" class="img-centre2 img-lightbox" onclick="openLightbox(this.src)">
             </div>
             <div id="two">
                 <p>La partie en elle-même</p>
-                <img id="stage" src="CSS/IMG/scrabble2.png" class="img-centre img-lightbox" onclick="openLightbox(this.src)">
+                <img id="stage" src="CSS/IMG/scrabble2.png" class="img-centre2 img-lightbox" onclick="openLightbox(this.src)">
             </div>
         </div>`
     },
@@ -23,25 +23,25 @@ const projets = {
         <div class="pre">
             <div id="one">
                 <p>Le profil</p>
-                <img id="stage" src="CSS/IMG/Multiburo1.png" class="img-centre img-lightbox" onclick="openLightbox(this.src)">
+                <img id="stage" src="CSS/IMG/Multiburo1.png" class="img-centre2 img-lightbox" onclick="openLightbox(this.src)">
             </div>
             <div id="two">
                 <p>La profil quand vous-êtes connecter</p>
-                <img id="stage" src="CSS/IMG/Multiburo2.png" class="img-centre img-lightbox" onclick="openLightbox(this.src)">
+                <img id="stage" src="CSS/IMG/Multiburo2.png" class="img-centre2 img-lightbox" onclick="openLightbox(this.src)">
             </div>
         </div> <br>
         <div class="pre">
             <div id="one">
                 <p>La Connection</p>
-                <img id="stage" src="CSS/IMG/Multiburo3.png" class="img-centre img-lightbox" onclick="openLightbox(this.src)">
+                <img id="stage" src="CSS/IMG/Multiburo3.png" class="img-centre2 img-lightbox" onclick="openLightbox(this.src)">
             </div>
             <div id="two">
                 <p>L'Inscription</p>
-                <img id="stage" src="CSS/IMG/Multiburo4.png" class="img-centre img-lightbox" onclick="openLightbox(this.src)">
+                <img id="stage" src="CSS/IMG/Multiburo4.png" class="img-centre2 img-lightbox" onclick="openLightbox(this.src)">
             </div>
             <div id="three">
                 <p>La réservation</p>
-                <img id="stage" src="CSS/IMG/Multiburo5.png" class="img-centre img-lightbox" onclick="openLightbox(this.src)">
+                <img id="stage" src="CSS/IMG/Multiburo5.png" class="img-centre2 img-lightbox" onclick="openLightbox(this.src)">
             </div>
         </div>`
     },
@@ -53,7 +53,7 @@ const projets = {
         <div class="pre">
             <div id="one">
                 <p>Rien</p>
-                <img id="stage" src="CSS/IMG/" class="img-centre img-lightbox" onclick="openLightbox(this.src)">
+                <img id="stage" src="CSS/IMG/" class="img-centre2 img-lightbox" onclick="openLightbox(this.src)">
                 <div id="lightbox" class="lightbox" onclick="this.style.display='none'">
                     <span class="close">&times;</span>
                     <img class="lightbox-content" id="lightbox-img">
@@ -61,7 +61,7 @@ const projets = {
             </div>
             <div id="two">
                 <p>Nada</p>
-                <img id="stage" src="CSS/IMG/" class="img-centre img-lightbox" onclick="openLightbox(this.src)">
+                <img id="stage" src="CSS/IMG/" class="img-centre2 img-lightbox" onclick="openLightbox(this.src)">
             </div>
         </div>`
     }

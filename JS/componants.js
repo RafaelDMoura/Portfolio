@@ -37,8 +37,8 @@ function createHeader(currentPage = "") {
                 Accueil
             </a>
 
-            <a href="presentation.html" class="bouton" ${currentPage === 'presentation' ? activeStyle : ''}>
-                Présentation
+            <a href="experience.html" class="bouton" ${currentPage === 'experience' ? activeStyle : ''}>
+                Expérience
             </a>
 
             <a href="stages.html" class="bouton" ${currentPage === 'stages' ? activeStyle : ''}>
