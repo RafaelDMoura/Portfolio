@@ -106,6 +106,10 @@ img {
     
 }
 
+ul {
+    text-align:left;
+}
+
 .marge2 {
     border: 2px solid #101728;
     background: linear-gradient(130deg, #101728 0%,#182444 25%, #1b294e 35%, #1b294e 50%,#182444 70%, #101728 100%);
@@ -194,6 +198,8 @@ a.bouton2, button.bouton2 {
     background: linear-gradient(90deg, #264592 0%, #112c6e 50%, #031646 100%);
     border-radius: 30px;
     transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 /* Le calque du Hover */
