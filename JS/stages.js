@@ -12,10 +12,10 @@ const stages = {
                 <p>Fait des applications web pour les clients.</p>
                 
                 <h2>J'ai fait quoi dans Access Creed ?</h2>
-                <p>Du 19 mai 2025 au 27 juin 2025, j'ai eu un projet et une mission :</p>
+                <p>Du 19 mai 2025 au 27 juin 2025, j'ai eu deuxs projet :</p>
                 <ul>
-                    <li>Mon Projet : La construction du site web.</li>
-                    <li>Ma Mission : un formulaire applicatif en C# pour une autre entreprise.</li>
+                    <li>La construction du site web.</li>
+                    <li>Un formulaire applicatif en C# pour une autre entreprise.</li>
                 </ul>
 
                 <h2>Site Web</h2>
@@ -59,13 +59,12 @@ const stages = {
                 <p>C'est une entreprise qui se répartit sur la région parisienne et lyonnaise.</p>
                 <p>Pour en savoir plus, <a href="https://www.celeonet.fr/societe" target="_blank">cliquer ici.</a></p>
                 
-
                 <h2>J'ai fait quoi dans Celeonet ?</h2>
-                <p>Du 5 janvier 2026 au 13 Février 2026, J'ai eu un projet et deux missions :</p>
+                <p>Du 5 janvier 2026 au 13 Février 2026, J'ai eu trois projets :</p>
                 <ul>
-                    <li>Mon Projet : la construction d'une application web interrogeant la BDD MySQL d'un serveur téléphonique.</li>
-                    <li>Ma Première Mission : mise en place d'une API pour obtenir les tables localement.</li>
-                    <li>Ma Deuxième Mission : mise en place des Test Unitaires en PHP.</li>
+                    <li>La construction d'une application web interrogeant la base de donnée d'un serveur téléphonique.</li>
+                    <li>Mise en place des Test Unitaires en PHP.</li>
+                    <li>Mise en place d'une API pour obtenir les tables localement.</li>
                 </ul>
 
                 <h2>Application Web</h2>
