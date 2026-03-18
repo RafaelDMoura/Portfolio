@@ -74,12 +74,10 @@ ul {
 }
 
 #big {
-    width: 900px;
-    height: 900px;
+    width: 300px;
+    height: 200px;
     object-fit: contain;
     transition: transform 0.2s ease;
-    margin-top: -70%;
-    margin-bottom: -70%;
 }
 
 #big:hover {
@@ -229,7 +227,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #0e1422;    
+    background: linear-gradient(90deg, #0e1422 0%, #1e2c4b 50%, #444f69 100%);  
     padding: 30px;
     font-family: "Codec Pro ExtraBold", sans-serif;
     gap: 100px; 
@@ -293,6 +291,7 @@ footer {
     width: 64px;
     height: 64px;
     object-fit: contain;
+    margin-left: 20px;
     transition: transform 0.2s ease;
 }
 
@@ -361,28 +360,28 @@ footer {
 .pre {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 80px;
+    grid-gap: 60px;
     grid-auto-rows: minmax(100px, auto);
 }
 
 .pre1 {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-gap: 80px;
+    grid-gap: 60px;
     grid-auto-rows: minmax(100px, auto);
 }
 
 .pre2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 80px;
+    grid-gap: 60px;
     grid-auto-rows: minmax(100px, auto);
 }
 
 .pre3 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 80px;
+    grid-gap: 60px;
     grid-auto-rows: minmax(100px, auto);
 }
 
