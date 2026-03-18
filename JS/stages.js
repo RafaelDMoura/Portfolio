@@ -103,7 +103,7 @@ const stages = {
                 <p>Cette mission est pour faire une API sur les mêmes BDD.</p>
                 <p>Elle est mise en forme par le framework Symfony, et grâce à ça,</p>
                 <p>On peut faire des requêtes GET.</p>
-                <h3>Voici une des tables sous l'API :</h3>
+                <h3>Voici une des tables sous l'API tester par Postman :</h3>
                 <img id="stage" src="CSS/IMG/celeonet-api-1.png" alt="CeleonetAPI1" class="img-centre2 img-lightbox" onclick="openLightbox(this.src)">
                 <p>Grâce à l'API, on peut automatiser l'importation d'une BDD envers une table d'une autre BDD</p>
                 <h3>Voici la synchronisation avec Asterisk envers la table de la synthèse d'appels des clients :</h3>
