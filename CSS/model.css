@@ -395,6 +395,13 @@ footer {
     grid-auto-rows: minmax(100px, auto);
 }
 
+.pre6 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 60px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
 .pre7 {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
@@ -468,6 +475,11 @@ footer {
 
 .img-centre0 {
     max-width: 100px;        
+    height: auto;
+}
+
+.img-centre1 {
+    max-width: 150px;        
     height: auto;
 }
 
