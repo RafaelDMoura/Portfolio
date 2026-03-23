@@ -6,23 +6,23 @@ const stages = {
                 <div class="container-img">
                     <img src="CSS/IMG/accesscreed.png" alt="Access Creed" class="img-centre">
                 </div>
-                <p>Une entreprise Freelancer créée en 2018</p>
-                <p>Aide à réparer les soucis des ordinateurs de ses clients (dans d’autres entreprises) via du code PowerShell</p>
-                <p>Fait des délivrances d’outils (ordinateurs, composants, écrans, etc.).</p>
-                <p>Fait des applications web pour les clients.</p>
+                <p>Une entreprise de freelancing créée en 2018</p>
+                <p>Aide à résoudre les problèmes informatiques de ses clients (dans d’autres entreprises).</p>
+                <p>Effectue la délivrances d’outils (ordinateurs, composants, écrans, etc.).</p>
+                <p>Réalise également des applications web pour les clients.</p>
                 
-                <h2>J'ai fait quoi dans Access Creed ?</h2>
-                <p>Du 19 mai 2025 au 27 juin 2025, j'ai eu deuxs projet :</p>
+                <h2>Qu'ai-je fait chez Access Creed ?</h2>
+                <p>Du 19 mai 2025 au 27 juin 2025, j'ai travaillé sur deux projets :</p>
                 <ul>
-                    <li>La construction du site web.</li>
+                    <li>La création du site web de l'entreprise.</li>
                     <li>Un formulaire applicatif en C# pour une autre entreprise.</li>
                 </ul>
 
                 <h2>Site Web</h2>
-                <p>Ce projet est un site web en HTML/CSS/JS et PHP natif.</p>
-                <p>Le but du projet est de faire un site web pour que les clients aient un moyen de contacter l'entreprise.</p>
-                <p>Et pour qu'ils aient un une compte sécurisé grâce aux tickets.</p>
-                <h3>Voici les pages faites pendant le projet :</h3>
+                <p>Ce projet est un site web développé en HTML/CSS/JS et PHP natif.</p>
+                <p>L'objectif est de permettre aux clients de contacter l'entreprise via un formulaire dédié.</p>
+                <p>Ils peuvent également créer un compte sécurisé pour gérer leurs tickets.</p>
+                <h3>Voici les pages réalisées :</h3>
                 <div class="pre2">
                     <img id="stage" src="CSS/IMG/access-creed-1.png" alt="AC1" class="img-centre2 img-lightbox" onclick="openLightbox(this.src)">
                     <img id="stage" src="CSS/IMG/access-creed-2.png" alt="AC2" class="img-centre2 img-lightbox" onclick="openLightbox(this.src)">
@@ -35,15 +35,21 @@ const stages = {
                         <img id="stage" src="CSS/IMG/access-creed-4.png" alt="AC4" class="img-centre2 img-lightbox" onclick="openLightbox(this.src)">
                     </div>
                 </div>
-                <h2>Formulaire sous C#</h2>
-                <p>Cette mission est pour faire un formulaire sous C#.</p>
-                <p>Elle est mise en forme par XAML et après transformée en fichier exécutable.</p>
-                <p>Le but c'est qu'on obtient de l'information des ordinateurs et lesquels les utilisent pour une entreprise.</p>
-                <p>Cette information finit par être enregistrée dans une base de données.</p>
-                <h3>Voici comment les formulaires se ressemblent :</h3>
+                <h2>Le Questionnaire</h2>
+                <p>Ce projet est consistait à développer formulaire sous C#.</p>
+                <p>L'interface est réalisée en XAML, puis compilée en fichier exécutable.</p>
+                <p>Le but est de récupérer des informations sur les ordinateurs et leurs utilisateurs pour une entreprise.</p>
+                <p>Ces données sont ensuite enregistrées dans une base de données.</p>
+                <h3>Voici l’apparence du formulaire :</h3>
                 <img id="stage" src="CSS/IMG/access-creed-c.png" alt="AC Formulaire" class="img-centre2 img-lightbox" onclick="openLightbox(this.src)">
 
                 <h2>Bilan</h2>
+                <p>Ce stage chez Access Creed m’a permis de développer mes compétences techniques tout en découvrant le fonctionnement d’une entreprise de services informatiques. 
+                J’ai pu travailler sur deux projets concrets : la création d’un site web complet et le développement d’un formulaire applicatif en C#. 
+                Ces missions m’ont permis d’améliorer ma maîtrise du développement web (HTML, CSS, JavaScript, PHP) ainsi que du développement logiciel (C#, XAML).</p>
+                <p>J’ai également appris à travailler de manière autonome, à respecter des contraintes techniques et à m’adapter aux besoins réels des clients. 
+                Ce stage a renforcé ma capacité à analyser un besoin, proposer une solution et la mettre en œuvre de manière structurée.</p>
+                <p>Cette expérience a confirmé mon intérêt pour le développement full‑stack et m’a motivé à poursuivre dans cette voie pour mes futures études et projets professionnels.</p>
             </div>
         `
     },
@@ -55,28 +61,28 @@ const stages = {
                     <img src="CSS/IMG/celeonet.png" alt="Celeonet" class="img-centre2">
                 </div>
                 <p>Une entreprise experte en hébergement créée en 2003.</p>
-                <p>L'entreprise est constituée d'une équipe d’experts d’internet et des réseaux.</p>
-                <p>C'est une entreprise qui se répartit sur la région parisienne et lyonnaise.</p>
+                <p>L'entreprise est composée d'une équipe d’experts en internet et en réseaux.</p>
+                <p>Elle est implantée en région parisienne et lyonnaise.</p>
                 <p>Pour en savoir plus, <a href="https://www.celeonet.fr/societe" target="_blank">cliquer ici.</a></p>
                 
-                <h2>J'ai fait quoi dans Celeonet ?</h2>
-                <p>Du 5 janvier 2026 au 13 Février 2026, J'ai eu trois projets :</p>
+                <h2>Qu'ai-je fait chez Celeonet ?</h2>
+                <p>Du 5 janvier 2026 au 13 Février 2026, J'ai travaillé sur trois projets :</p>
                 <ul>
-                    <li>La construction d'une application web interrogeant la base de donnée d'un serveur téléphonique.</li>
-                    <li>Mise en place des Test Unitaires en PHP.</li>
-                    <li>Mise en place d'une API pour obtenir les tables localement.</li>
+                    <li>La création d'une application web interrogeant la base de donnée d'un serveur téléphonique.</li>
+                    <li>La mise en place de test unitaires en PHP.</li>
+                    <li>La création d'une API permettant obtenir les tables localement.</li>
                 </ul>
 
                 <h2>Application Web</h2>
-                <p>Ce projet est une application web en HTML/CSS, JS et PHP natif.</p>
-                <p>Le but du projet est d'utiliser la BDD Asterisk pour obtenir des informations.</p>
-                <p>Et grâce aux tables de cette BDD, on peut faire des requêtes MySQL pour obtenir :</p>
+                <p>Ce projet est une application web en HTML/CSS, JavaScript et PHP natif.</p>
+                <p>L'objectif ' est d'utiliser la BDD Asterisk pour obtenir des informations.</p>
+                <p>Grâce aux tables de cette base, il est possible d'effectuer des requêtes MySQL afin d'obtenir :</p>
                 <ol>
                     <li>La disponibilité des techniciens.</li>
-                    <li>La présence ou absence des techniciens dans les files de traitement des appels clients.</li>
-                    <li>Un traitement statistique sur les appels clients (liste des appelants, nombre d'appels, etc.).</li>
+                    <li>La présence ou l'absence des techniciens dans les files de traitement des appels clients.</li>
+                    <li>Des statistiques sur les appels clients (liste des appelants, nombre d'appels, etc.).</li>
                 </ol>
-                <h3>Voici les tables faites pour le projet :</h3>
+                <h3>Voici les tables faites réalisées pour le projet :</h3>
                 <div class="pre2">
                     <img id="stage" src="CSS/IMG/celeonet-1.png" alt="Celeonet1" class="img-centre2 img-lightbox" onclick="openLightbox(this.src)">
                     <img id="stage" src="CSS/IMG/celeonet-2.png" alt="Celeonet2" class="img-centre2 img-lightbox" onclick="openLightbox(this.src)">
@@ -89,23 +95,21 @@ const stages = {
                     <img id="stage" src="CSS/IMG/celeonet-5.png" alt="Celeonet5" class="img-centre2 img-lightbox" onclick="openLightbox(this.src)">
                     <img id="stage" src="CSS/IMG/celeonet-6.png" alt="Celeonet6" class="img-centre2 img-lightbox" onclick="openLightbox(this.src)">
                 </div>
-                <p>Pour une petite info, la synthèse vient d'une autre BDD nommée CallSupport.</p>
+                <p>Petite précision : la synthèse provient d'une autre base de données nommée <b>CallSupport</b>.</p>
 
                 <h2>Test Unitaires</h2>
-                <p>Cette mission est pour faire des test unitaires sous PHP.</p>
-                <p>Elle est mise en forme par le framework PHPUnit, et grâce à ça,</p>
-                <p>On peut faire tester les fonctions faites pour voir si elles marchent vraiment.</p>
-                <h3>Voici le test fait directement en terminal :</h3>
+                <p>Ce projet consistait à mettre en places des test unitaires en PHP.</p>
+                <p>Ils sont réalisés avec le framework PHPUnit, permettant de vérifier automatiquement le bon fonctionnement des fonctions développées.</p>
+                <h3>Voici un test exécuté directement dans le terminal :</h3>
                 <img id="stage" src="CSS/IMG/celeonet-phpunit.png" alt="CeleonetPHPUnit" class="img-centre2 img-lightbox" onclick="openLightbox(this.src)">
 
-                <h2>API</h2>
-                <p>Cette mission est pour faire une API sur les mêmes BDD.</p>
-                <p>Elle est mise en forme par le framework Symfony, et grâce à ça,</p>
-                <p>On peut faire des requêtes GET.</p>
-                <h3>Voici une des tables sous l'API tester par Postman :</h3>
+                <h2>API</h2> 
+                <p>Ce projet consistait à créer une API basée sur les mêmes bases de données.</p>
+                <p>Elle est développée avec le framework Symfony, permettant d'effectuer des requêtes GET.</p>
+                <h3>Voici une des tables de l'API tester par Postman :</h3>
                 <img id="stage" src="CSS/IMG/celeonet-api-1.png" alt="CeleonetAPI1" class="img-centre2 img-lightbox" onclick="openLightbox(this.src)">
-                <p>Grâce à l'API, on peut automatiser l'importation d'une BDD envers une table d'une autre BDD</p>
-                <h3>Voici la synchronisation avec Asterisk envers la table de la synthèse d'appels des clients :</h3>
+                <p>Grâce à cette API, il est possible d'automatiser l'importation d'une bdd vers une table d'une autre base.</p>
+                <h3>Voici la synchronisation avec Asterisk et la table de la synthèse des appels clients :</h3>
                 <img id="stage" src="CSS/IMG/celeonet-api-2.png" alt="CeleonetAPI2" class="img-centre2 img-lightbox" onclick="openLightbox(this.src)">
 
                 <h2>Bilan</h2>
