@@ -113,6 +113,9 @@ const stages = {
                 <img id="stage" src="CSS/IMG/celeonet-api-2.png" alt="CeleonetAPI2" class="img-centre2 img-lightbox" onclick="openLightbox(this.src)">
 
                 <h2>Bilan</h2>
+                <p>Ce stage chez Celeonet m’a permis de travailler dans un environnement technique exigeant,. J’ai pu participer à trois projets concrets mêlant développement web, manipulation de bases de données, automatisation et création d’API.</p>           
+                <p>La mise en place de tests unitaires avec PHPUnit m’a apporté une rigueur supplémentaire dans ma manière de coder. J’ai compris l’importance de la qualité logicielle, de la fiabilité des fonctions et de l’automatisation des vérifications.</p>
+                <p>Ce stage a renforcé mes compétences en développement full‑stack, en gestion de données et en architecture logicielle. Il m’a également permis de gagner en autonomie, en organisation et en capacité d’analyse. Cette expérience confirme mon envie de poursuivre dans le développement web et logiciel, avec une attention particulière portée à la qualité et à la performance des applications.</p>
             </div>
         `
     }
