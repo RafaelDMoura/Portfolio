@@ -27,6 +27,9 @@ body::before {
     z-index: -1; 
 }
 
+small {
+    font-size: 40%;
+}
 
 p {
     font-size: 26px;
@@ -37,13 +40,27 @@ h2 {
     margin-top:50px
 }
 
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+li {
+    font-size: 20px;
+    text-align:left;
+}
+
 ul {
     margin: 5px 0 15px 20px;
 }
 
+
 #rouge > p {
     color: #ff3131;
-    font-size: 36px;
+    font-size: 46px;
     font-weight: bold;
     margin: 0 0 10px 0;
 }
@@ -157,7 +174,7 @@ ul {
     justify-content: space-evenly;
     gap: 20px;
     padding: 12px;
-    margin-left: -50px;
+    margin-left: -20px;
     flex-wrap: wrap;
     position: fixed;      
     top: 0;
@@ -312,9 +329,9 @@ footer {
 .stage {
     background: linear-gradient(135deg, #0b0b0b, #1a1a1a);
     color: white;
-    padding: 3rem;
-    border-radius: 20px;
-    margin: 3rem auto;
+    padding: 5rem 8rem;
+    border-radius: 40px;
+    margin: 5rem auto;
     max-width: 1000px;
     font-family: 'Segoe UI', sans-serif;
     box-shadow: 0 0 20px rgba(255, 0, 0, 0.3);
@@ -331,8 +348,8 @@ footer {
     list-style-type: disc;
     margin-left: 2rem;
     line-height: 1.8rem;
-    font-size: 1.1rem;
 }
+
 
 
 /* stages différence */
@@ -343,7 +360,6 @@ footer {
     background-size: cover;
     background-attachment: fixed;
     backdrop-filter: invert(80%);
-    padding: 5rem 2rem;
     border-radius: 20px;
     color: white;
     max-width: 1000px;
@@ -357,7 +373,6 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    padding: 5rem 2rem;
     border-radius: 20px;
     color: black;
     max-width: 1000px;

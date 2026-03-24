@@ -15,7 +15,7 @@ const stages = {
                 <p>Du 19 mai 2025 au 27 juin 2025, j'ai travaillé sur deux projets :</p>
                 <ul>
                     <li>La création du site web de l'entreprise.</li>
-                    <li>Un formulaire applicatif en C# pour une autre entreprise.</li>
+                    <li>Un questionnaire pour une entreprise clientelle.</li>
                 </ul>
 
                 <h2>Site Web</h2>
@@ -24,9 +24,13 @@ const stages = {
                 <p>Ils peuvent également créer un compte sécurisé pour gérer leurs tickets.</p>
                 <h3>Voici les pages réalisées :</h3>
                 <div class="pre2">
-                    <img id="stage" src="CSS/IMG/access-creed-1.png" alt="AC1" class="img-centre2 img-lightbox" onclick="openLightbox(this.src)">
-                    <img id="stage" src="CSS/IMG/access-creed-2.png" alt="AC2" class="img-centre2 img-lightbox" onclick="openLightbox(this.src)">
-                </div>
+                    <div id="one">
+                        <img id="stage" src="CSS/IMG/access-creed-1.png" alt="AC1" class="img-centre2 img-lightbox" onclick="openLightbox(this.src)">
+                    </div>
+                    <div id="two">
+                        <img id="stage" src="CSS/IMG/access-creed-2.png" alt="AC2" class="img-centre2 img-lightbox" onclick="openLightbox(this.src)">
+                    </div>
+                </div><br>
                 <div class="pre2">
                     <div id="one">
                         <img id="stage" src="CSS/IMG/access-creed-3.png" alt="AC3" class="img-centre2 img-lightbox" onclick="openLightbox(this.src)">
@@ -44,12 +48,14 @@ const stages = {
                 <img id="stage" src="CSS/IMG/access-creed-c.png" alt="AC Formulaire" class="img-centre2 img-lightbox" onclick="openLightbox(this.src)">
 
                 <h2>Bilan</h2>
-                <p>Ce stage chez Access Creed m’a permis de développer mes compétences techniques tout en découvrant le fonctionnement d’une entreprise de services informatiques. 
-                J’ai pu travailler sur deux projets concrets : la création d’un site web complet et le développement d’un formulaire applicatif en C#. 
-                Ces missions m’ont permis d’améliorer ma maîtrise du développement web (HTML, CSS, JavaScript, PHP) ainsi que du développement logiciel (C#, XAML).</p>
-                <p>J’ai également appris à travailler de manière autonome, à respecter des contraintes techniques et à m’adapter aux besoins réels des clients. 
-                Ce stage a renforcé ma capacité à analyser un besoin, proposer une solution et la mettre en œuvre de manière structurée.</p>
-                <p>Cette expérience a confirmé mon intérêt pour le développement full‑stack et m’a motivé à poursuivre dans cette voie pour mes futures études et projets professionnels.</p>
+                <p>Développement web : HTML, CSS, JavaScript, PHP</p>
+                <p>Développement logiciel : C#, XAML</p>
+                <p>Bases de données : MySQL</p>
+                <p>Réalisation de projets : site web, formulaire applicatif</p>
+                <p>Compétences : autonomie, adaptation, analyse des besoins, mise en oeuvre structurée</p>
+                <p>Outils : VScode, Visual Studio, phpMyAdmin</p>
+                <p>Confirmation de l'intérêt pour le développement fullstack en entreprise</p>
+                <p>Motivation pour poursuivre dans cette voie</p>
             </div>
         `
     },
@@ -75,7 +81,7 @@ const stages = {
 
                 <h2>Application Web</h2>
                 <p>Ce projet est une application web en HTML/CSS, JavaScript et PHP natif.</p>
-                <p>L'objectif ' est d'utiliser la BDD Asterisk pour obtenir des informations.</p>
+                <p>L'objectif est d'utiliser la BDD Asterisk pour obtenir des informations.</p>
                 <p>Grâce aux tables de cette base, il est possible d'effectuer des requêtes MySQL afin d'obtenir :</p>
                 <ol>
                     <li>La disponibilité des techniciens.</li>
@@ -113,9 +119,14 @@ const stages = {
                 <img id="stage" src="CSS/IMG/celeonet-api-2.png" alt="CeleonetAPI2" class="img-centre2 img-lightbox" onclick="openLightbox(this.src)">
 
                 <h2>Bilan</h2>
-                <p>Ce stage chez Celeonet m’a permis de travailler dans un environnement technique exigeant,. J’ai pu participer à trois projets concrets mêlant développement web, manipulation de bases de données, automatisation et création d’API.</p>           
-                <p>La mise en place de tests unitaires avec PHPUnit m’a apporté une rigueur supplémentaire dans ma manière de coder. J’ai compris l’importance de la qualité logicielle, de la fiabilité des fonctions et de l’automatisation des vérifications.</p>
-                <p>Ce stage a renforcé mes compétences en développement full‑stack, en gestion de données et en architecture logicielle. Il m’a également permis de gagner en autonomie, en organisation et en capacité d’analyse. Cette expérience confirme mon envie de poursuivre dans le développement web et logiciel, avec une attention particulière portée à la qualité et à la performance des applications.</p>
+                <p>Développement web : HTML, CSS, JavaScript, PHP</p>
+                <p>Bases de données : MySQL</p>
+                <p>Réalisation de projets : application web, tests unitaires, API Symfony</p>
+                <p>Compétences : autonomie, analyse, rigueur, qualité du code</p>
+                <p>Framework : Symfony, PHPUnit</p>
+                <p>Outils : VScode, Postman, phpMyAdmin</p>
+                <p>Motivation pour poursuivre mes études en développement fullstack</p>
+                <p>Confirmation d'orientation professionnelle dans cette voie</p>
             </div>
         `
     }
