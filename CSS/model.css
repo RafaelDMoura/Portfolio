@@ -2,9 +2,9 @@ body {
     background-color: #101728;
     color: white;
     font-family: "Codec Pro ExtraBold", sans-serif;
-    border: 10px;
+    border: none;
     padding: 0;
-    overflow-x: hidden;
+    overflow-x: auto;
     background-size: cover;
     position: relative;
 }
@@ -168,16 +168,17 @@ ul {
 /* nav */
 
 .nav {
+    position: fixed;      
+    top: 0;
+    left: 0;
     background-color: #281010;
+    box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     gap: 20px;
     padding: 12px;
-    margin-left: -20px;
     flex-wrap: wrap;
-    position: fixed;      
-    top: 0;
     width: 100%;
     transition: top 0.3s; 
     z-index: 1000;
@@ -250,21 +251,26 @@ a.bouton2:hover::before, button.bouton2:hover::before {
 
 /* footer */
 footer {
+    box-sizing: border-box !important;
+    width: 101% !important;
+    max-width: none !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-bottom: 0;
+    position: relative;
+    right: 10.4;
     display: flex;
     justify-content: center;
     align-items: center;
     background: linear-gradient(90deg, #0e1422 0%, #1e2c4b 50%, #444f69 100%);  
     padding: 30px;
-    font-family: "Codec Pro ExtraBold", sans-serif;
     gap: 100px; 
+    flex-wrap: wrap;
+    font-family: "Codec Pro ExtraBold", sans-serif;
     text-align: center; 
-    position: relative;
     overflow: hidden;
-    left: -50%;
     top: 10px;
     height: 50%;
-    width: 200%;
-    box-sizing: border-box;
 }
 
 
@@ -566,4 +572,26 @@ footer {
     font-size: 40px;
     font-weight: bold;
     cursor: pointer;
+}
+
+/* @media */
+
+@media screen and (max-width: 500px) {
+    footer {
+        display: none;
+    }
+
+    .nav {
+        display: none;
+    }
+    
+    .intro {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        overflow-x: auto;
+    }
 }

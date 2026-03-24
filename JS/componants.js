@@ -48,6 +48,10 @@ function createHeader(currentPage = "") {
             <a href="projets.html" class="bouton" ${currentPage === 'projets' ? activeStyle : ''}>
                 Projets
             </a>
+
+            <a href="mentions.html" class="bouton" ${currentPage === 'mentions' ? activeStyle : ''}>
+                Mentions légales
+            </a>
         </div>
     </header>`;
 }
