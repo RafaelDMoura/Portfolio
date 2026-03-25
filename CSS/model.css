@@ -58,7 +58,7 @@ ul {
 }
 
 
-#rouge > p {
+#violet > p {
     color: #dda9ff;
     font-size: 46px;
     font-weight: bold;
@@ -177,7 +177,7 @@ ul {
     align-items: center;
     justify-content: space-evenly;
     gap: 20px;
-    padding: 12px;
+    padding: 20px;
     flex-wrap: wrap;
     width: 100%;
     transition: top 0.3s; 
@@ -302,7 +302,7 @@ footer {
 }
 
 .footer-right h2 {
-    color: #a9ff09;
+    color: #dda9ff;
     font-size: 2em;
     margin-bottom: 15px;
 }
