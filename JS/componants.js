@@ -88,15 +88,52 @@ function createFooter() {
     </footer>`;
 }
 
+let currentImages = []; 
+let currentIndex = 0;
 
 function openLightbox(src) {
+    document.getElementById('prev-btn').style.display = 'none';
+    document.getElementById('next-btn').style.display = 'none';
     document.getElementById('lightbox-img').src = src;
     document.getElementById('lightbox').style.display = 'flex';
 }
 
-// Optionnel : Fermer la lightbox avec la touche Échap
-document.addEventListener('keydown', function(e) {
-    if (e.key === "Escape") {
-        document.getElementById('lightbox').style.display = 'none';
+function openGallery(img, index) {
+    currentImages = img;
+    currentIndex = index;
+    document.getElementById('prev-btn').style.display = 'block';
+    document.getElementById('next-btn').style.display = 'block';
+    updateLightbox();
+    document.getElementById('lightbox').style.display = 'flex';
+}
+
+function updateLightbox() {
+    const imgElement = document.getElementById('lightbox-img');
+    if (currentImages[currentIndex]) {
+        imgElement.src = currentImages[currentIndex];
+    }
+}
+
+function changeImage(dir) {
+    if (currentImages.length === 0) return;
+
+    currentIndex += dir;
+
+    if (currentIndex >= currentImages.length) {
+        currentIndex = 0;
+    }
+    else if (currentIndex < 0) {
+        currentIndex = currentImages.length - 1;
+    }
+    updateLightbox();
+}
+
+function closeLightbox() {
+    document.getElementById('lightbox').style.display = 'none';
+}
+
+document.addEventListener('keydown', function(event) {
+    if (event.key === "Escape") {
+        closeLightbox();
     }
 });

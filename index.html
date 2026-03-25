@@ -11,9 +11,11 @@
     <div class="intro">
         <h1>Bienvenue sur mon Portfolio !</h1>
     </div>
-    <div id="lightbox" class="lightbox" onclick="this.style.display='none'">
-        <span class="close">&times;</span>
+    <div id="lightbox" class="lightbox">
+        <span class="close" onclick="closeLightbox()">&times;</span>
+        <a id="prev-btn" class="prev" onclick="changeImage(-1)">&#10094;</a>
         <img class="lightbox-content" id="lightbox-img">
+        <a id="next-btn" class="next" onclick="changeImage(1)">&#10095;</a>
     </div>
     <div class="marge">
         
@@ -56,7 +58,7 @@
             </div>
             <div id="two">
                 <p>MOOC du CNIL</p>
-                <img id="small" src="CSS/IMG/cnil1.png" class="img-centre2 img-lightbox" onclick="openLightbox(this.src)"> </img>
+                <img id="small" src="CSS/IMG/cnil1.png" class="img-centre2 img-lightbox" onclick="openGallery(['CSS/IMG/cnil1.png', 'CSS/IMG/cnil2.png', 'CSS/IMG/cnil3.png', 'CSS/IMG/cnil4.png', 'CSS/IMG/cnil5.png', 'CSS/IMG/cnil6.png'], 0)"> </img>
             </div>
             <div id="three">
                 <p>Certificat Pix</p>
