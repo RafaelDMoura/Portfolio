@@ -111,8 +111,10 @@ function openGallery(img, index) {
 
 function updateLightbox() {
     const imgElement = document.getElementById('lightbox-img');
+    const counterElement = document.getElementById('lightbox-counter');
     if (currentImages[currentIndex]) {
         imgElement.src = currentImages[currentIndex];
+        counterElement.innerText = (currentIndex + 1) + " / " + currentImages.length;
     }
 }
 
