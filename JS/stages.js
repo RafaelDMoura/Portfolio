@@ -23,20 +23,9 @@ const stages = {
                 <p>L'objectif est de permettre aux clients de contacter l'entreprise via un formulaire dédié.</p>
                 <p>Ils peuvent également créer un compte sécurisé pour gérer leurs tickets.</p>
                 <h3>Voici les pages réalisées :</h3>
-                <div class="pre2">
+                <div class="pre1">
                     <div id="one">
-                        <img id="stage" src="CSS/IMG/access-creed-1.png" alt="AC1" class="img-centre2 img-lightbox" onclick="openLightbox(this.src)">
-                    </div>
-                    <div id="two">
-                        <img id="stage" src="CSS/IMG/access-creed-2.png" alt="AC2" class="img-centre2 img-lightbox" onclick="openLightbox(this.src)">
-                    </div>
-                </div><br>
-                <div class="pre2">
-                    <div id="one">
-                        <img id="stage" src="CSS/IMG/access-creed-3.png" alt="AC3" class="img-centre2 img-lightbox" onclick="openLightbox(this.src)">
-                    </div>
-                    <div id="two">
-                        <img id="stage" src="CSS/IMG/access-creed-4.png" alt="AC4" class="img-centre2 img-lightbox" onclick="openLightbox(this.src)">
+                        <img id="stage" src="CSS/IMG/access-creed-1.png" alt="AC1" class="img-centre2 img-lightbox" onclick="openGallery(['CSS/IMG/access-creed-1.png', 'CSS/IMG/access-creed-2.png', 'CSS/IMG/access-creed-3.png', 'CSS/IMG/access-creed-4.png'], 0)">
                     </div>
                 </div>
                 <h2>Le Questionnaire</h2>
@@ -89,17 +78,10 @@ const stages = {
                     <li>Des statistiques sur les appels clients (liste des appelants, nombre d'appels, etc.).</li>
                 </ol>
                 <h3>Voici les tables faites réalisées pour le projet :</h3>
-                <div class="pre2">
-                    <img id="stage" src="CSS/IMG/celeonet-1.png" alt="Celeonet1" class="img-centre2 img-lightbox" onclick="openLightbox(this.src)">
-                    <img id="stage" src="CSS/IMG/celeonet-2.png" alt="Celeonet2" class="img-centre2 img-lightbox" onclick="openLightbox(this.src)">
-                </div>
-                <div class="pre2">
-                    <img id="stage" src="CSS/IMG/celeonet-3.png" alt="Celeonet3" class="img-centre2 img-lightbox" onclick="openLightbox(this.src)">
-                    <img id="stage" src="CSS/IMG/celeonet-4.png" alt="Celeonet4" class="img-centre2 img-lightbox" onclick="openLightbox(this.src)">
-                </div>
-                <div class="pre2">
-                    <img id="stage" src="CSS/IMG/celeonet-5.png" alt="Celeonet5" class="img-centre2 img-lightbox" onclick="openLightbox(this.src)">
-                    <img id="stage" src="CSS/IMG/celeonet-6.png" alt="Celeonet6" class="img-centre2 img-lightbox" onclick="openLightbox(this.src)">
+                <div class="pre1">
+                    <div id="one">
+                        <img id="stage" src="CSS/IMG/celeonet-1.png" alt="Celeonet1" class="img-centre2 img-lightbox" onclick="openGallery(['CSS/IMG/celeonet-1.png', 'CSS/IMG/celeonet-2.png', 'CSS/IMG/celeonet-3.png', 'CSS/IMG/celeonet-4.png', 'CSS/IMG/celeonet-5.png', 'CSS/IMG/celeonet-6.png'], 0)">
+                    </div>
                 </div>
                 <p>Petite précision : la synthèse provient d'une autre base de données nommée <b>CallSupport</b>.</p>
 

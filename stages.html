@@ -8,16 +8,16 @@
     </head>
     <body>
         <div id="headery"></div>
+        <div id="lightbox" class="lightbox">
+            <span class="close" onclick="closeLightbox()">&times;</span>
+            <a id="prev-btn" class="prev" onclick="changeImage(-1)">&#10094;</a>
+            <img class="lightbox-content" id="lightbox-img">
+            <a id="next-btn" class="next" onclick="changeImage(1)">&#10095;</a>
+        </div>
 
         <main>
             <div class="intro">
                 <h1>Stages</h1>
-            </div>
-            <div id="lightbox" class="lightbox">
-                <span class="close" onclick="closeLightbox()">&times;</span>
-                <a id="prev-btn" class="prev" onclick="changeImage(-1)">&#10094;</a>
-                <img class="lightbox-content" id="lightbox-img">
-                <a id="next-btn" class="next" onclick="changeImage(1)">&#10095;</a>
             </div>
             <div class="marge">
                 <div id="violet"><p>Stages pendant le BTS</p></div>
