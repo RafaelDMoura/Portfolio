@@ -48,10 +48,6 @@ function createHeader(currentPage = "") {
             <a href="projets.html" class="bouton" ${currentPage === 'projets' ? activeStyle : ''}>
                 Projets
             </a>
-
-            <a href="mentions.html" class="bouton" ${currentPage === 'mentions' ? activeStyle : ''}>
-                Mentions légales
-            </a>
         </div>
     </header>`;
 }
@@ -63,27 +59,33 @@ function createFooter() {
 
     footerContainer.innerHTML = `
     <footer>
-        <div class="footer-left">
-            <a href="CSS/PDF/RafaelCV.pdf" target="_blank" aria-label="Si vous cliquez ici, vous aurez mon pdf!">
-                <img src="CSS/IMG/moi.jpg" alt="Photo de Rafael" />
-            </a>
-            <h2>Rafael<br>Faquir De Moura</h2>
-        </div>
-
-        <div class="footer-right">
-            <h2>Contact</h2>
-            <p>+33 07 69 30 45 88</p>
-            <p>18, Rue Gabriel Péri</p>
-            <p>rafaelfaquirmoura@gmail.com</p>
-
-            <div class="footer-icons">
-                <a href="https://www.linkedin.com/in/rafael-faquir-de-moura-1a8551301/" target="_blank" aria-label="LinkedIn">
-                    <img src="CSS/IMG/1linkedin.png" alt="LinkedIn" />
+        <div class="footer-main">
+            <div class="footer-left">
+                <a href="CSS/PDF/RafaelCV.pdf" target="_blank" aria-label="Si vous cliquez ici, vous aurez mon pdf!">
+                    <img src="CSS/IMG/moi.jpg" alt="Photo de Rafael" />
                 </a>
-                <a href="https://github.com/RafaelDMoura" target="_blank" aria-label="GitHub">
-                    <img src="CSS/IMG/2github.png" alt="GitHub" />
-                </a>
+                <h2>Rafael<br>Faquir De Moura</h2>
             </div>
+
+            <div class="footer-right">
+                <h2>Contact</h2>
+                <p>+33 07 69 30 45 88</p>
+                <p>18, Rue Gabriel Péri</p>
+                <p>rafaelfaquirmoura@gmail.com</p>
+
+                <div class="footer-icons">
+                    <a href="https://www.linkedin.com/in/rafael-faquir-de-moura-1a8551301/" target="_blank" aria-label="LinkedIn">
+                        <img src="CSS/IMG/1linkedin.png" alt="LinkedIn" />
+                    </a>
+                    <a href="https://github.com/RafaelDMoura" target="_blank" aria-label="GitHub">
+                        <img src="CSS/IMG/2github.png" alt="GitHub" />
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>&copy; 2025 Rafael Faquir De Moura. Tous droits réservés.</p>
+            <a href="mentions.html">Mentions légales</a>
         </div>
     </footer>`;
 }
