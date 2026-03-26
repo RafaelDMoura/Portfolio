@@ -7,137 +7,137 @@
 </head>
 <body>
     <div id="headery"></div>
-
-    <div class="intro">
-        <h1>Bienvenue sur mon Portfolio !</h1>
-    </div>
-    <div id="lightbox" class="lightbox">
-        <span class="close" onclick="closeLightbox()">&times;</span>
-        <a id="prev-btn" class="prev" onclick="changeImage(-1)">&#10094;</a>
-        <img class="lightbox-content" id="lightbox-img">
-        <a id="next-btn" class="next" onclick="changeImage(1)">&#10095;</a>
-    </div>
-    <div class="marge">
-        
-        <div id="violet"><p>Introduction</p></div>
-        <div class="pre1">
-            <div id="one">
-                <p>Étudiant – 20 ans.</p>
-                <p>Passionné par le développement fullstack.</p>
-                <p>Aime jouer aux jeux vidéo (Minecraft, Portal, Resident Evil, etc.).</p>
-                <p>Curieux de comprendre comment fonctionnent la plupart des codes.</p>
-                <p>Pour l'avenir : poursuivre mes études en fullstack.</p>
-            </div>
-            <div id="two">
-                <p>Mon CV</p>
-                <a href="https://www.canva.com/design/DAGYzta4pB0/ifujz9a61Bs-uvBt6jZuuQ/edit?utm_content=DAGYzta4pB0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank"><img id="cv" src="CSS/IMG/cv.jpg" class="img-centre"> </img> </a>
-            </div>
+    <main>
+        <div class="intro">
+            <h1>Bienvenue sur mon Portfolio !</h1>
         </div>
-    </div>
-
-    <div class="marge">
-        <div id="violet"><p>Diplômes</p></div>
-        <div class="pre3">
-            <div id="one">
-                <p>Baccalauréat Général</p>
-                <img id="small" src="CSS/IMG/bac.png" class="img-centre2 img-lightbox" onclick="openLightbox(this.src)"> </img>
-            </div>
-            <div id="three">
-                <p>Baccalauréat +2</p>
-                <img id="small" src="CSS/IMG/" class="img-centre2 img-lightbox" onclick="openLightbox(this.src)"> </img>
-            </div>
+        <div id="lightbox" class="lightbox">
+            <span class="close" onclick="closeLightbox()">&times;</span>
+            <a id="prev-btn" class="prev" onclick="changeImage(-1)">&#10094;</a>
+            <img class="lightbox-content" id="lightbox-img">
+            <a id="next-btn" class="next" onclick="changeImage(1)">&#10095;</a>
         </div>
-    </div>
-
-    <div class="marge">
-        <div id="violet"><p>Certificats</p></div>
-        <div class="pre3">
-            <div id="one"> 
-                <p>MOOC de l'ANSSi</p>
-                <img id="small" src="CSS/IMG/Anssi.png" class="img-centre2 img-lightbox" onclick="openLightbox(this.src)"> </img>
-            </div>
-            <div id="two">
-                <p>MOOC du CNIL</p>
-                <img id="small" src="CSS/IMG/cnil1.png" class="img-centre2 img-lightbox" onclick="openGallery(['CSS/IMG/cnil1.png', 'CSS/IMG/cnil2.png', 'CSS/IMG/cnil3.png', 'CSS/IMG/cnil4.png', 'CSS/IMG/cnil5.png', 'CSS/IMG/cnil6.png'], 0)"> </img>
-            </div>
-            <div id="three">
-                <p>Certificat Pix</p>
-                <img id="small" src="CSS/IMG/pix.png" class="img-centre2 img-lightbox" onclick="openLightbox(this.src)"> </img>
-            </div>
-        </div>
-    </div>
-
-    <div class="marge">
-        <div id="violet"><p>Formation Scolaire</p></div>
-        <!-- <p>Alternance – Développement Fullstack (2026 - 2027)</p>
-        <h4>• Iscod</h4>
-        <h4>• E-Learning</h4>
-        <h4>• Bachelor (Baccalauréat +3)</h4>
-        <div class="pre1">
-            <div id="one">
-                <img id="big" src="CSS/IMG/iscod.jpg" class="img-centre2 img-lightbox" onclick="openLightbox(this.src)"> </img>
-            </div>
-        </div> -->
-        <p>BTS SIO – SLAM (Services Informatiques aux Organisations – Solutions Logicielles et Applications Métiers) (2024 - 2026)</p>
-        <h4>• Lycée Ella Fitzgerald</h4>
-        <h4>• Saint-Romain-en-Gal</h4>
-        <h4>• Baccalauréat +2</h4>
-        <div class="pre1">
-            <div id="one">
-                <img id="big" src="CSS/IMG/ella.png" class="img-centre2 img-lightbox" onclick="openLightbox(this.src)"> </img>
-            </div>
-        </div>
-        <p>Baccalauréat Général – Spécialité NSI (Numérique et sciences informatiques) et AMC (Anglais Monde Contemporain) (2021 - 2024)</p>
-        <h4>• Lycée Polyvalent Aragon-Picasso</h4>
-        <h4>• Givors</h4>
-        <h4>• Baccalauréat Général</h4>
-        <div class="pre1">
-            <div id="one">
-                <img id="big" src="CSS/IMG/aragon.jpg" class="img-centre2 img-lightbox" onclick="openLightbox(this.src)"> </img>
-            </div>
-        </div>
-    </div>
-
-    <div class="conteneur-flex">
-        <div class="marge2">
-            <div id="violet"><p>Stage d'Entreprise</p></div>
+        <div class="marge">
+            
+            <div id="violet"><p>Introduction</p></div>
             <div class="pre1">
                 <div id="one">
-                    <p>Celeonet (5 Janvier 2026 - 13 Février 2026)</p>
-                    <img id="smaller" src="CSS/IMG/celeonet_logo.jpg" class="img-centre img-lightbox" onclick="window.location.href='stages.html#celeonet'">
+                    <p>Étudiant – 20 ans.</p>
+                    <p>Passionné par le développement fullstack.</p>
+                    <p>Aime jouer aux jeux vidéo (Minecraft, Portal, Resident Evil, etc.).</p>
+                    <p>Curieux de comprendre comment fonctionnent la plupart des codes.</p>
+                    <p>Pour l'avenir : poursuivre mes études en fullstack.</p>
                 </div>
-            </div>
-            <div class="pre1">
-                <div id="one">
-                    <p>Access Creed (19 Mai 2025 - 27 Juin 2025)</p>
-                    <img id="smaller" src="CSS/IMG/accesscreed.png" class="img-centre img-lightbox" onclick="window.location.href='stages.html#accessCreed'">
+                <div id="two">
+                    <p>Mon CV</p>
+                    <a href="https://www.canva.com/design/DAGYzta4pB0/ifujz9a61Bs-uvBt6jZuuQ/edit?utm_content=DAGYzta4pB0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank"><img id="cv" src="CSS/IMG/cv.jpg" class="img-centre"> </img> </a>
                 </div>
             </div>
         </div>
 
-        <div class="marge2">
-            <div id="violet"><p>Projets Scolaires</p></div>
-            <div class="pre1">
+        <div class="marge">
+            <div id="violet"><p>Diplômes</p></div>
+            <div class="pre3">
                 <div id="one">
-                    <p>Gourmetise (BTS SIO 2025–2026)</p>
-                    <img id="smaller" src="CSS/IMG/Gourmetise.png" class="img-centre img-lightbox" onclick="window.location.href='projets.html#gourmetise'">
-                </div> 
-            </div>
-            <div class="pre1">
-                <div id="one">
-                    <p>Multiburo (BTS SIO 2024–2025)</p>
-                    <img id="smaller" src="CSS/IMG/multiburo.png" class="img-centre img-lightbox" onclick="window.location.href='projets.html#multiburo'">
+                    <p>Baccalauréat Général</p>
+                    <img id="small" src="CSS/IMG/bac.png" class="img-centre2 img-lightbox" onclick="openLightbox(this.src)"> </img>
                 </div>
-            </div>
-            <div class="pre1">
-                <div id="one">
-                    <p>Scrabble 2 Joueurs (BTS SIO 2024–2025)</p>
-                    <img id="smaller" src="CSS/IMG/scrabble.jpeg" class="img-centre img-lightbox" onclick="window.location.href='projets.html#scrabble'">
+                <div id="three">
+                    <p>Baccalauréat +2</p>
+                    <img id="small" src="CSS/IMG/" class="img-centre2 img-lightbox" onclick="openLightbox(this.src)"> </img>
                 </div>
             </div>
         </div>
-    </div>
 
+        <div class="marge">
+            <div id="violet"><p>Certificats</p></div>
+            <div class="pre3">
+                <div id="one"> 
+                    <p>MOOC de l'ANSSi</p>
+                    <img id="small" src="CSS/IMG/Anssi.png" class="img-centre2 img-lightbox" onclick="openLightbox(this.src)"> </img>
+                </div>
+                <div id="two">
+                    <p>MOOC du CNIL</p>
+                    <img id="small" src="CSS/IMG/cnil1.png" class="img-centre2 img-lightbox" onclick="openGallery(['CSS/IMG/cnil1.png', 'CSS/IMG/cnil2.png', 'CSS/IMG/cnil3.png', 'CSS/IMG/cnil4.png', 'CSS/IMG/cnil5.png', 'CSS/IMG/cnil6.png'], 0)"> </img>
+                </div>
+                <div id="three">
+                    <p>Certificat Pix</p>
+                    <img id="small" src="CSS/IMG/pix.png" class="img-centre2 img-lightbox" onclick="openLightbox(this.src)"> </img>
+                </div>
+            </div>
+        </div>
+
+        <div class="marge">
+            <div id="violet"><p>Formation Scolaire</p></div>
+            <!-- <p>Alternance – Développement Fullstack (2026 - 2027)</p>
+            <h4>• Iscod</h4>
+            <h4>• E-Learning</h4>
+            <h4>• Bachelor (Baccalauréat +3)</h4>
+            <div class="pre1">
+                <div id="one">
+                    <img id="big" src="CSS/IMG/iscod.jpg" class="img-centre2 img-lightbox" onclick="openLightbox(this.src)"> </img>
+                </div>
+            </div> -->
+            <p>BTS SIO – SLAM (Services Informatiques aux Organisations – Solutions Logicielles et Applications Métiers) (2024 - 2026)</p>
+            <h4>• Lycée Ella Fitzgerald</h4>
+            <h4>• Saint-Romain-en-Gal</h4>
+            <h4>• Baccalauréat +2</h4>
+            <div class="pre1">
+                <div id="one">
+                    <img id="big" src="CSS/IMG/ella.png" class="img-centre2 img-lightbox" onclick="openLightbox(this.src)"> </img>
+                </div>
+            </div>
+            <p>Baccalauréat Général – Spécialité NSI (Numérique et sciences informatiques) et AMC (Anglais Monde Contemporain) (2021 - 2024)</p>
+            <h4>• Lycée Polyvalent Aragon-Picasso</h4>
+            <h4>• Givors</h4>
+            <h4>• Baccalauréat Général</h4>
+            <div class="pre1">
+                <div id="one">
+                    <img id="big" src="CSS/IMG/aragon.jpg" class="img-centre2 img-lightbox" onclick="openLightbox(this.src)"> </img>
+                </div>
+            </div>
+        </div>
+
+        <div class="conteneur-flex">
+            <div class="marge2">
+                <div id="violet"><p>Stage d'Entreprise</p></div>
+                <div class="pre1">
+                    <div id="one">
+                        <p>Celeonet (5 Janvier 2026 - 13 Février 2026)</p>
+                        <img id="smaller" src="CSS/IMG/celeonet_logo.jpg" class="img-centre img-lightbox" onclick="window.location.href='stages.html#celeonet'">
+                    </div>
+                </div>
+                <div class="pre1">
+                    <div id="one">
+                        <p>Access Creed (19 Mai 2025 - 27 Juin 2025)</p>
+                        <img id="smaller" src="CSS/IMG/accesscreed.png" class="img-centre img-lightbox" onclick="window.location.href='stages.html#accessCreed'">
+                    </div>
+                </div>
+            </div>
+
+            <div class="marge2">
+                <div id="violet"><p>Projets Scolaires</p></div>
+                <div class="pre1">
+                    <div id="one">
+                        <p>Gourmetise (BTS SIO 2025–2026)</p>
+                        <img id="smaller" src="CSS/IMG/Gourmetise.png" class="img-centre img-lightbox" onclick="window.location.href='projets.html#gourmetise'">
+                    </div> 
+                </div>
+                <div class="pre1">
+                    <div id="one">
+                        <p>Multiburo (BTS SIO 2024–2025)</p>
+                        <img id="smaller" src="CSS/IMG/multiburo.png" class="img-centre img-lightbox" onclick="window.location.href='projets.html#multiburo'">
+                    </div>
+                </div>
+                <div class="pre1">
+                    <div id="one">
+                        <p>Scrabble 2 Joueurs (BTS SIO 2024–2025)</p>
+                        <img id="smaller" src="CSS/IMG/scrabble.jpeg" class="img-centre img-lightbox" onclick="window.location.href='projets.html#scrabble'">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
     <div id="footery"></div>
     <script>
         createHeader(); 
