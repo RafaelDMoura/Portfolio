@@ -1,5 +1,6 @@
 html, body {
     height: 100%;
+    width: 100%;
     margin: 0;
     padding: 0;
 }
@@ -32,6 +33,7 @@ body::before {
 
 main {
     flex: 1; 
+    justify-content: center;
 }
 
 small {
@@ -126,7 +128,7 @@ ul {
 
 .marge {
     border: 2px solid #101728;
-    background: linear-gradient(130deg, #101728 0%,#182444 25%, #1b294e 35%, #1b294e 50%,#182444 70%, #101728 100%);
+    background: linear-gradient(130deg, #1b294e 0%,#182444 25%, #182444 50%, #1b294e 100%);
     padding: 40px;
     padding-left: 10%;
     padding-right: 10%;
@@ -145,6 +147,17 @@ ul {
     margin-left: 0; 
     margin-right: 0;
     text-align:center;
+}
+
+.marge3 {
+    border: 2px solid #101728;
+    background: linear-gradient(130deg, #1b294e 0%,#182444 25%, #182444 50%, #1b294e 100%);
+    border-radius: 40px;
+    padding: 40px; 
+    width: 90%; 
+    max-width: 1600px; 
+    margin: 20px auto; 
+    text-align: center;
 }
 
 .conteneur-flex {
@@ -175,14 +188,15 @@ ul {
 
 .nav {
     position: fixed;      
-    top: 0;
+    top: -1;
     left: 0;
-    background-color: #0e3086;
+    background-color: #182444;
+    border: 1px solid #101728;
     box-sizing: border-box;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    gap: 20px;
+    justify-content: center;
+    gap: 4%;
     padding: 20px;
     flex-wrap: wrap;
     width: 100%;
@@ -212,17 +226,21 @@ a.bouton, a.bouton2, button.bouton2 {
 }
 
 a.bouton {
-    background-color: #3259b9;
-    width: 200px;
+    background-color: #1a3477;
+    width: 150px;
     height: 20px;
+    transition: transform 0.4s ease-in-out,
 }
 a.bouton:hover {
-    background-color: #254596;
+    background-color: #3064e98e;
+    transition: opacity 0.4s ease-in-out;
 }
 
 a.bouton2, button.bouton2 {
     background: #264592;
-    background: linear-gradient(90deg, #264592 0%, #112c6e 50%, #031646 100%);
+    background: linear-gradient(90deg, #112c6e 0%, #031646 100%);
+    line-height: 40px;
+    font-size: 30px;
     border-radius: 30px;
     transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
     margin-left: 5%;
@@ -244,9 +262,7 @@ a.bouton2::before, button.bouton2::before {
 a.bouton2:hover, button.bouton2:hover {
     transform: scale(1.05);
     box-shadow: 0 0 3px #9c4fcf,
-    0 0 5px #9c4fcf,
-    0 0 10px #9c4fcf,
-    0 0 20px #9c4fcf;
+    0 0 5px #9c4fcf;
     transition: all 0.2s ease-in-out;
 }
 
@@ -264,7 +280,7 @@ footer {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    background: linear-gradient(90deg, #0e1422 0%, #1e2c4b 50%, #444f69 100%);  
+    background: linear-gradient(90deg, #0e1422 0%, #0f1d3a 50%, #111b31 100%);  
     padding: 0;
     display: flex;
     flex-direction: column;

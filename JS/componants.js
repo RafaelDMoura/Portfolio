@@ -31,7 +31,7 @@ function createHeader(currentPage = "") {
     headerContainer.innerHTML = `
     <header>
         <div class="nav">
-            <p>PORTFOLIO - RAFAEL FAQUIR DE MOURA</p>
+            <p>PORTFOLIO – RAFAEL FAQUIR DE MOURA</p>
 
             <a href="index.html" class="bouton" ${currentPage === 'index' ? activeStyle : ''}>
                 Accueil
