@@ -92,12 +92,15 @@ function createFooter() {
 
 let currentImages = []; 
 let currentIndex = 0;
+let navigationEnabled = true;
 
 function openLightbox(src) {
-    document.getElementById('prev-btn').style.display = 'none';
-    document.getElementById('next-btn').style.display = 'none';
     document.getElementById('lightbox-img').src = src;
     document.getElementById('lightbox').style.display = 'flex';
+    document.getElementById('prev-btn').style.display = 'none';
+    document.getElementById('next-btn').style.display = 'none';
+    document.getElementById('lightbox-counter').style.display = 'none';
+    navigationEnabled = false;
 }
 
 function openGallery(img, index) {
@@ -105,6 +108,8 @@ function openGallery(img, index) {
     currentIndex = index;
     document.getElementById('prev-btn').style.display = 'block';
     document.getElementById('next-btn').style.display = 'block';
+    document.getElementById('lightbox-counter').style.display = 'block';
+    navigationEnabled = true;
     updateLightbox();
     document.getElementById('lightbox').style.display = 'flex';
 }
@@ -137,7 +142,18 @@ function closeLightbox() {
 }
 
 document.addEventListener('keydown', function(event) {
-    if (event.key === "Escape") {
-        closeLightbox();
+    switch(event.key) {
+        case "Escape" : 
+            closeLightbox();
+            break;
+        case "ArrowLeft":
+            if (navigationEnabled)
+                changeImage(-1);
+            break;
+        case "ArrowRight":
+            if (navigationEnabled)
+                changeImage(1);
+            break;
     }
 });
+

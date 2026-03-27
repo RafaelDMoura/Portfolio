@@ -138,6 +138,17 @@ ul {
     text-align:center;
 }
 
+.marge1 {
+    border: 2px solid #101728;
+    background: linear-gradient(130deg, #1b294e 0%,#182444 25%, #182444 50%, #1b294e 100%);
+    border-radius: 40px;
+    padding: 40px; 
+    width: 90%; 
+    max-width: 900px; 
+    margin: 20px auto; 
+    text-align: center;
+}
+
 .marge2 {
     border: 2px solid #101728;
     background: linear-gradient(130deg, #101728 0%,#182444 25%, #1b294e 35%, #1b294e 50%,#182444 70%, #101728 100%);
@@ -201,7 +212,7 @@ ul {
     flex-wrap: wrap;
     width: 100%;
     transition: top 0.3s; 
-    z-index: 1000;
+    z-index: 2;
 }
 
 .nav > p {
@@ -611,7 +622,7 @@ footer {
 .lightbox {
     display: none; 
     position: fixed;
-    z-index: 1000;
+    z-index: 3;
     left: 0;
     top: 0;
     width: 100%; 
