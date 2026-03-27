@@ -70,7 +70,6 @@ function createFooter() {
             <div class="footer-right">
                 <h2>Contact</h2>
                 <p>+33 07 69 30 45 88</p>
-                <p>18, Rue Gabriel Péri</p>
                 <p>rafaelfaquirmoura@gmail.com</p>
 
                 <div class="footer-icons">
